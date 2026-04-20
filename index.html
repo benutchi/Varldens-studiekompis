@@ -228,7 +228,9 @@ function analyzeQuestion() {
     card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 </script>
+
 <script>
+
 const HELP_DATA = [
   {
     keywords: ["test"],
@@ -239,5 +241,41 @@ const HELP_DATA = [
 ];
 
 function analyzeQuestion() {
+  const input = document.getElementById("userQuestion").value.toLowerCase();
+  const card = document.getElementById("resultCard");
+
+  const match = HELP_DATA.find(item =>
+    item.keywords.some(word => input.includes(word))
+  );
+
+  if (!match) {
+    document.getElementById("meaningText").innerText =
+      "Jag känner inte igen frågan riktigt ännu.";
+
+    document.getElementById("conceptsList").innerHTML =
+      "<li>Prova att klistra in hela frågan från ditt dokument.</li>";
+
+    document.getElementById("nextList").innerHTML =
+      "<li>Testa igen med en tydligare formulering.</li>";
+
+    card.classList.remove("hidden");
+    return;
+  }
+
+  document.getElementById("meaningText").innerText = match.meaning;
+
+  document.getElementById("conceptsList").innerHTML =
+    match.concepts.map(c => `<li>${c}</li>`).join("");
+
+  document.getElementById("nextList").innerHTML =
+    match.next.map(n => `<li>${n}</li>`).join("");
+
+  card.classList.remove("hidden");
+
+  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+</script>
+
 </body>
 </html>
