@@ -39,14 +39,77 @@
 
 <script>
 
+<script>
 const HELP_DATA = [
   {
-    keywords: ["test"],
-    meaning: "Detta är ett test",
-    concepts: ["Testbegrepp"],
-    next: ["Teststeg"]
+    keywords: ["klimatzon"],
+    meaning: "Du ska ta reda på vilken klimatzon landet ligger i.",
+    concepts: [
+      "Klimatzon är ett område där klimatet liknar andra områden.",
+      "Exempel på klimatzoner är tropisk, tempererad och polar."
+    ],
+    next: [
+      "Sök på landets klimatzon.",
+      "Ta reda på om landet är varmt, kallt, torrt eller regnigt.",
+      "Skriv sedan vilken klimatzon landet ligger i."
+    ]
+  },
+  {
+    keywords: ["endogena krafter", "jordens inre", "vulkaner", "jordbävningar"],
+    meaning: "Du ska förklara vad endogena krafter är och ge exempel från landet.",
+    concepts: [
+      "Endogena krafter är krafter från jordens inre.",
+      "Exempel är jordbävningar, vulkaner och bergskedjebildning."
+    ],
+    next: [
+      "Sök om landet har jordbävningar, vulkaner eller liknande.",
+      "Välj ett tydligt exempel.",
+      "Förklara hur det påverkar människor."
+    ]
+  },
+  {
+    keywords: ["exogena krafter", "erosion", "vind", "vatten"],
+    meaning: "Du ska förklara vad exogena krafter är och ge exempel från landet.",
+    concepts: [
+      "Exogena krafter formar jordytan utifrån.",
+      "Exempel är vind, vatten och erosion."
+    ],
+    next: [
+      "Sök efter erosion, översvämningar, vind eller vatten i landet.",
+      "Hitta ett tydligt exempel.",
+      "Förklara hur naturen påverkas och hur människor påverkas."
+    ]
   }
 ];
+
+function analyzeQuestion() {
+  const input = document.getElementById("userQuestion").value.toLowerCase().trim();
+  const card = document.getElementById("resultCard");
+
+  const match = HELP_DATA.find(item =>
+    item.keywords.some(word => input.includes(word))
+  );
+
+  if (!match) {
+    document.getElementById("meaningText").innerText =
+      "Jag känner inte igen frågan ännu.";
+    document.getElementById("conceptsList").innerHTML =
+      "<li>Prova att klistra in en rad i taget från arbetsbladet.</li>";
+    document.getElementById("nextList").innerHTML =
+      "<li>Testa igen med en tydligare rad eller ett begrepp.</li>";
+    card.classList.remove("hidden");
+    return;
+  }
+
+  document.getElementById("meaningText").innerText = match.meaning;
+  document.getElementById("conceptsList").innerHTML =
+    match.concepts.map(c => `<li>${c}</li>`).join("");
+  document.getElementById("nextList").innerHTML =
+    match.next.map(n => `<li>${n}</li>`).join("");
+
+  card.classList.remove("hidden");
+}
+</script>
 
 function analyzeQuestion() {
   const input = document.getElementById("userQuestion").value.toLowerCase();
