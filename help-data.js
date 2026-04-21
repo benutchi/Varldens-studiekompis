@@ -529,5 +529,25 @@ const HELP_DATA = [
       "En tänkbar anledning till att landet styrs på det här sättet kan vara landets historia av... ",
       "Jag tror att styret ser ut som det gör idag eftersom händelser i det förflutna har lett till att... "
     ]
+  },
+  {
+    patterns: [
+      "Vad påverkar mest hur ett land fungerar – naturen eller hur landet styrs?",
+      "Här ska du ta ställning. Vad tror du är viktigast för ett land? Använd minst två exempel från ditt arbete för att förklara hur du tänker och jämför med Sverige."
+    ],
+    meaning: "Här ska du väga samman allt du har lärt dig för att bestämma om det är geografin eller politiken som formar ett land mest. Fundera på om ett land med dåliga naturliga förutsättningar ändå kan bli framgångsrikt om ledarna fattar smarta och rättvisa beslut.",
+    concepts: [
+      "Slutsats: Den sista delen i en undersökning där man knyter ihop alla sina resultat och ger ett tydligt svar på arbetets huvudfråga.",
+      "Perspektiv: Att se på en fråga från olika håll, till exempel genom att titta på både naturens möjligheter och politikens makt samtidigt."
+    ],
+    next: [
+      "Gå igenom dina tidigare svar om både klimat och statsskick för att hitta konkreta exempel som visar hur de två delarna påverkar varandra.",
+      "Jämför hur Sveriges naturresurser har hjälpt oss historiskt mot hur vår demokrati och våra lagar formar vårt samhälle idag.",
+      "Fundera på om ett land med ett perfekt klimat och rika naturresurser ändå kan fungera dåligt om invånarna inte får vara med och bestämma."
+    ],
+    start: [
+      "Efter att ha undersökt hur landet fungerar drar jag slutsatsen att... har störst betydelse för invånarnas liv eftersom... ",
+      "När man jämför med Sverige ser man tydligt att... är det som mest påverkar landets framtid på grund av... "
+    ]
   }
 ];
