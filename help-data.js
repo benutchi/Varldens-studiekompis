@@ -16,8 +16,7 @@ const HELP_DATA = [
     "Klimatet i landet gör att människors liv skiljer sig från Sverige genom att...",
     "Eftersom vädret ofta är... så påverkar det hur man lever på så sätt att..."
   ]
-}
-
+},
 {
   patterns: [
     "Vilken klimatzon ligger landet i?"
@@ -35,8 +34,7 @@ const HELP_DATA = [
     "Landet ligger i den... klimatzonen.",
     "Det här landet tillhör den... zonen eftersom..."
   ]
-}
-
+},
 {
   patterns: [
     "Förklara varför: Beror klimatet på läget på jorden, närhet till hav eller något annat?"
@@ -56,8 +54,7 @@ const HELP_DATA = [
     "Landets klimat beror främst på att...",
     "En viktig anledning till att det regnar/är varmt är närheten till..."
   ]
-}
-
+},
 {
   patterns: [
     "Hur påverkar vädret människors vardag (bostäder, mat och kläder)?"
@@ -75,8 +72,7 @@ const HELP_DATA = [
     "Vädret märks tydligt i människors vardag, till exempel genom att husen är byggda för att...",
     "Eftersom det ofta är... äter man mycket... som växer bra i det klimatet."
   ]
-}
-
+},
 {
   patterns: [
     "Vilka är de största skillnaderna mot det svenska klimatet?"
