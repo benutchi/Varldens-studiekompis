@@ -339,5 +339,100 @@ const HELP_DATA = [
       "En likhet mellan länderna är att människor ofta har valt att bosätta sig på platser där det är enkelt att bedriva handel och... ",
       "Något som verkligen skiljer länderna åt är däremot att man i mitt land måste ta hänsyn till... vilket vi sällan behöver i Sverige."
     ]
+  },
+  {
+    patterns: [
+      "Fråga: Hur arbetar landet för att miljön ska må bra jämfört med i Sverige?"
+    ],
+    meaning: "Du ska sammanfatta landets miljöarbete och visa på skillnader mot hur vi i Sverige sköter vår miljö. Fundera på om landets miljöarbete styrs mest av hårda lagar eller om det är människornas egna val som gör störst skillnad.",
+    concepts: [
+      "Hållbar utveckling: Att leva på ett sätt som gör att jordens resurser räcker även till framtidens människor.",
+      "Biologisk mångfald: Att det finns många olika typer av djur och växter i naturen som alla behövs för att ekosystemet ska fungera."
+    ],
+    next: [
+      "Sök efter 'Environmental policies' tillsammans med landets namn för att se vilka lagar som finns.",
+      "Jämför hur mycket av landets sopor som återvinns jämfört med Sveriges återvinning.",
+      "Fundera på om det är lättare att skydda miljön i ett rikt land än i ett fattigt land."
+    ],
+    start: [
+      "Landet arbetar med miljöfrågor genom att fokusera extra mycket på... ",
+      "Det finns stora skillnader mot Sverige, till exempel när det gäller..."
+    ]
+  },
+  {
+    patterns: [
+      "Vilka är de största miljöproblemen i landet?"
+    ],
+    meaning: "Här ska du peka ut de mest akuta skadorna på naturen som finns i landet just nu. Fundera på om dessa problem är synliga för ögat, som skräp, eller osynliga, som kemiska gifter i marken.",
+    concepts: [
+      "Miljöhot: Faror i naturen som skapats av människor och som kan skada djur, växter och människors hälsa.",
+      "Utsläpp: Skadliga ämnen som kommer ut i luften, vattnet eller marken från exempelvis bilar och stora fabriker."
+    ],
+    next: [
+      "Sök efter 'Main environmental issues' och landets namn i en sökmotor.",
+      "Jämför om landet har samma typ av problem som Sverige, som exempelvis övergödning i haven.",
+      "Fundera på vilket av landets miljöproblem som är svårast för politikerna att lösa snabbt."
+    ],
+    start: [
+      "De största miljöutmaningarna som landet står inför idag är... ",
+      "Ett av de mest allvarliga problemen är... "
+    ]
+  },
+  {
+    patterns: [
+      "Förklara varför: Beror problemen på fabriker, jordbruk eller hur människor lever?"
+    ],
+    meaning: "Här ska du hitta källan till varför miljön skadas genom att titta på landets produktion och människors vardagsliv. Fundera på om det är landets ekonomi och behov av pengar som gör att miljön ofta hamnar i andra hand.",
+    concepts: [
+      "Industri: Fabriker och företag som tillverkar saker i stor skala, vilket ofta kräver mycket energi och ger utsläpp.",
+      "Intensivodling: Ett sätt att använda jordbruksmark så effektivt som möjligt, vilket ofta kräver stora mängder bekämpningsmedel."
+    ],
+    next: [
+      "Ta reda på vilken som är landets största industri och se om den orsakar mycket föroreningar.",
+      "Jämför hur mycket landets invånare konsumerar jämfört med en person i Sverige.",
+      "Fundera på om människors levnadssätt i städerna skadar miljön mer än vad jordbruket gör på landsbygden."
+    ],
+    start: [
+      "Miljöproblemen i landet beror till stor del på att... ",
+      "En annan viktig orsak är hur jordbruket används för att..."
+    ]
+  },
+  {
+    patterns: [
+      "Konsekvens: Vad leder problemen till för naturen och människorna?"
+    ],
+    meaning: "Du ska beskriva vad som händer med växter, djur och människor när miljön förstörs i landet. Fundera på om konsekvenserna märks mest för de fattiga människorna i landet eller om alla drabbas lika mycket.",
+    concepts: [
+      "Ekosystem: Ett område i naturen där djur och växter lever tillsammans och är beroende av varandra.",
+      "Hälsoeffekter: Hur miljön påverkar människors kroppar, till exempel genom sjukdomar orsakade av smutsigt vatten eller avgaser."
+    ],
+    next: [
+      "Sök efter information om hur föroreningar påverkar hälsan i just det här landet.",
+      "Jämför hur tillgången till rent dricksvatten ser ut i landet jämfört med hur vi har det i Sverige.",
+      "Fundera på om naturen i landet kan återhämta sig själv om alla utsläpp stoppades helt idag."
+    ],
+    start: [
+      "För naturen i landet innebär miljöproblemen att... ",
+      "Människorna drabbas också hårt eftersom miljöförstöringen leder till..."
+    ]
+  },
+  {
+    patterns: [
+      "Vad gör landet för att försöka lösa problemen?"
+    ],
+    meaning: "Du ska beskriva de projekt, lagar eller tekniska lösningar som landet använder för att laga skadorna i naturen. Fundera på om lösningarna främst kommer från landets ledare eller om det är människorna själva som startar miljöprojekt.",
+    concepts: [
+      "Förnybar energi: Energi som kommer från källor som aldrig tar slut, som solljus, vindkraft och rinnande vatten.",
+      "Miljölagstiftning: Regler som bestäms av staten för att tvinga företag och människor att sluta skada naturen."
+    ],
+    next: [
+      "Sök efter specifika miljöprojekt eller naturreservat som finns i det valda landet.",
+      "Jämför landets satsningar på grön energi med de satsningar som görs i Sverige.",
+      "Fundera på om landets nuvarande lösningar faktiskt räcker till för att rädda naturen på lång sikt."
+    ],
+    start: [
+      "För att förbättra miljöns tillstånd har landet börjat satsa på... ",
+      "Ett exempel på en konkret åtgärd som har genomförts är... "
+    ]
   }
 ];
