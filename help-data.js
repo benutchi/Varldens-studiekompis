@@ -1,61 +1,30 @@
 const HELP_DATA = [
-  {
-    patterns: [
-      "Vilken klimatzon ligger landet i?",
-      "Vilken klimatzon ligger landet i"
-    ],
-    meaning:
-      "Du ska ta reda på vilken klimatzon landet ligger i. Det handlar inte om väder idag utan vilken typ av klimat landet tillhör.",
-    concepts: [
-      "Klimatzon är ett område där klimatet liknar andra områden.",
-      "Exempel: tropisk, subtropisk, tempererad och polar.",
-      "Klimatet påverkas av läge på jorden, höjd och avstånd till hav."
-    ],
-    next: [
-      "Ta reda på var landet ligger på jorden.",
-      "Ta reda på om det är varmt, kallt, torrt eller regnigt.",
-      "Koppla till rätt klimatzon.",
-      "Svara: Landet ligger i den ___ klimatzonen eftersom..."
-    ]
-  },
-
-  {
-    patterns: [
-      "Endogena krafter",
-      "Endogena krafter:"
-    ],
-    meaning:
-      "Du ska förklara vad endogena krafter är och ge exempel från landet.",
-    concepts: [
-      "Endogena krafter kommer från jordens inre.",
-      "Exempel: jordbävningar, vulkaner, bergskedjor.",
-      "De kan förändra marken snabbt."
-    ],
-    next: [
-      "Ta reda på om landet haft jordbävning eller vulkan.",
-      "Beskriv vad som hände.",
-      "Förklara hur människor påverkades.",
-      "Svara: Ett exempel är..."
-    ]
-  },
-
-  {
-    patterns: [
-      "Exogena krafter",
-      "Exogena krafter:"
-    ],
-    meaning:
-      "Du ska förklara vad exogena krafter är och ge exempel från landet.",
-    concepts: [
-      "Exogena krafter formar jordytan utifrån.",
-      "Exempel: vind, vatten, erosion.",
-      "De förändrar landskapet långsamt."
-    ],
-    next: [
-      "Ta reda på hur naturen förändras i landet.",
-      "Ge ett exempel, t.ex. erosion eller floder.",
-      "Förklara vad som händer.",
-      "Svara: Ett exempel är..."
-    ]
-  }
+{
+  patterns: [
+    "Hur påverkar klimatet hur människor lever i landet jämfört med i Sverige?",
+    "Vilken klimatzon ligger landet i?",
+    "Förklara varför: Beror klimatet på läget på jorden, närhet till hav eller något annat?",
+    "Hur påverkar vädret människors vardag (bostäder, mat och kläder)?",
+    "Vilka är de största skillnaderna mot det svenska klimatet?"
+  ],
+  meaning: "Här ska du undersöka hur vädret och temperaturen styr människors liv. Du ska först hitta fakta om klimatet och sedan förklara hur det gör att folk bor, äter och klär sig annorlunda än vi gör i Sverige.",
+  concepts: [
+    "Klimatzon: Ett stort område på jorden där vädret och temperaturen liknar varandra under lång tid (t.ex. tropiskt eller kallt).",
+    "Läge på jorden: Hur nära ekvatorn ett land ligger påverkar hur stark solen är och hur varmt det blir.",
+    "Kustklimat: Om ett land ligger nära havet blir det ofta regnigare och jämnare temperatur."
+  ],
+  next: [
+    "Sök: '[Landets namn] klimat och klimatzon'.",
+    "Sök: 'Hur bor människor i [Landets namn]' för att se bilder på hus.",
+    "Jämför med Sverige: Behöver de vinterjackor och uppvärmda hus, eller behöver de skugga och svala kläder?",
+    "Titta på en karta: Ligger landet vid havet eller mitt inne i en stor och torr världsdel?"
+  ],
+  start: [
+    "Landet ligger i den ... klimatzonen, vilket innebär att vädret oftast är...",
+    "Eftersom klimatet är så ..., måste människor i det här landet...",
+    "En stor skillnad mot Sverige är att man i det här landet bygger husen för att...",
+    "Detta beror på att läget på jorden gör att..."
+  ]
+}
 ];
+   
