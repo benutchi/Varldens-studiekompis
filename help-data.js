@@ -263,5 +263,81 @@ const HELP_DATA = [
       "En stor skillnad mellan länderna är att man i [Landets namn] måste tänka på...",
       "När det gäller säkerhet så påverkar naturkrafterna byggnaderna genom att..."
     ]
+  },
+  {
+    patterns: [
+      "Fråga: Var bor människor och varför bor de just där jämfört med i Sverige?"
+    ],
+    meaning: "Du ska undersöka mönstret för var i landet befolkningen har samlats och förklara orsakerna till det. Fundera på om det är naturen, historiska händelser eller tillgången till jobb som främst har styrt var städerna hamnat.",
+    concepts: [
+      "Befolkningstäthet: Detta är ett mått på hur många människor som bor på en viss yta, oftast per kvadratkilometer. Det hjälper oss att se om ett område är trångbott eller om det finns mycket tom yta.",
+      "Urbanisering: Begreppet beskriver när människor flyttar från landsbygden in till städerna. Detta händer ofta när industrier växer fram eller när fler vill studera."
+    ],
+    next: [
+      "Sök på en karta över landets befolkningstäthet för att se exakt var det är mest prickigt eller mörkt.",
+      "Jämför kartan med Sverige för att se om vi också har stora områden som är nästan helt tomma på folk.",
+      "Fundera på om människor i framtiden kommer att tvingas flytta från dessa områden om klimatet förändras drastiskt."
+    ],
+    start: [
+      "De flesta människor i det här landet har valt att bosätta sig i de områden som ligger nära... ",
+      "En viktig anledning till att befolkningen är fördelad på det här sättet är att det finns goda möjligheter till..."
+    ]
+  },
+  {
+    patterns: [
+      "Beskriv var de största städerna ligger. Är landet tät- eller glesbefolkat?"
+    ],
+    meaning: "Här ska du ge en tydlig bild av landets geografi genom att namnge viktiga städer och förklara hur tätt människor bor. Tänk på om landet känns som en myrstack av människor eller om det är långt mellan grannarna.",
+    concepts: [
+      "Tätbefolkat: Detta innebär att det bor väldigt många människor nära varandra på en liten yta, vilket är vanligt i stora världsstäder.",
+      "Glesbefolkat: När det är långt mellan husen och människorna bor utspridda över ett stort område med mycket natur emellan."
+    ],
+    next: [
+      "Sök efter namnen på de tre största städerna och kontrollera på en karta om de ligger vid kusten eller djupt inne i landet.",
+      "Jämför landets invånarantal per kvadratkilometer med Sveriges siffra, som är ungefär 25 personer per kvadratkilometer.",
+      "Fundera på vilka problem som kan uppstå för skolor och sjukhus om ett land är extremt glesbefolkat och avstånden är jättelånga."
+    ],
+    start: [
+      "Landets största städer ligger främst placerade i de delar av landet som kännetecknas av... ",
+      "Man kan beskriva det här landet som [tät/gles]-befolkat eftersom det i genomsnitt bor... människor på varje kvadratkilometer."
+    ]
+  },
+  {
+    patterns: [
+      "Koppling: Hur hänger befolkningen ihop med klimatet och naturen?"
+    ],
+    meaning: "Du ska förklara hur naturens förutsättningar, som höga berg eller extrem värme, bestämmer var det faktiskt går att leva. Fundera på om det finns områden i landet där naturen är så tuff att det är nästan omöjligt att bygga fungerande vägar.",
+    concepts: [
+      "Naturresurser: Det är saker i naturen som människor behöver för att överleva och bygga ett samhälle, som vatten, skog eller odlingsmark.",
+      "Levnadsvillkor: Detta beskriver de omständigheter som avgör hur lätt eller svårt det är att bo och arbeta på en viss plats."
+    ],
+    next: [
+      "Sök efter bilder på landets natur och se om de tomma områdena består av svåråtkomliga berg, öknar eller djupa skogar.",
+      "Jämför detta med hur vi i Sverige bor mest i de södra delarna där klimatet är mildare och jorden är bättre för odling.",
+      "Fundera på hur modern teknik, som luftkonditionering eller konstgjord bevattning, gör att människor idag kan bo på platser som förr var obeboeliga."
+    ],
+    start: [
+      "Det finns en tydlig koppling mellan var människor bor och hur klimatet ser ut eftersom... ",
+      "I de områden där naturen är som svårast, till exempel vid..., ser man att befolkningen är mycket gles på grund av..."
+    ]
+  },
+  {
+    patterns: [
+      "Jämför med varför vi bor där vi bor i Sverige."
+    ],
+    meaning: "Här ska du använda dina kunskaper om Sverige som en spegel för att förstå likheter och skillnader med ditt valda land. Fundera på om närheten till vatten och handel har varit lika viktig för städerna i ditt land som för de svenska städerna.",
+    concepts: [
+      "Infrastruktur: Detta är system av vägar, järnvägar, el och internet som behövs för att människor ska kunna bo och arbeta på en plats.",
+      "Migration: Begreppet handlar om när människor flyttar från en plats till en annan, antingen inom ett land eller mellan olika länder."
+    ],
+    next: [
+      "Ta reda på varför de flesta svenskar bor längs kusten eller i närheten av de tre största städerna Stockholm, Göteborg och Malmö.",
+      "Jämför dessa svenska orsaker med vad som har lockat människor till de största städerna i det land du undersöker.",
+      "Fundera på om det finns några hinder i ditt land, som extrem torka eller höga berg, som vi i Sverige slipper tänka på när vi bygger städer."
+    ],
+    start: [
+      "En likhet mellan länderna är att människor ofta har valt att bosätta sig på platser där det är enkelt att bedriva handel och... ",
+      "Något som verkligen skiljer länderna åt är däremot att man i mitt land måste ta hänsyn till... vilket vi sällan behöver i Sverige."
+    ]
   }
 ];
