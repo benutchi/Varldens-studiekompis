@@ -24,7 +24,31 @@ const HELP_DATA = [
     "Eftersom klimatet är så ..., måste människor i det här landet...",
     "En stor skillnad mot Sverige är att man i det här landet bygger husen för att...",
     "Detta beror på att läget på jorden gör att..."
+   ]
+},{
+  patterns: [
+    "Hur påverkar naturen och jordens krafter hur människor lever jämfört med i Sverige?",
+    "Endogena krafter: Krafter från jordens inre (t.ex. vulkaner, jordbävningar och bergskedjebildning). Ge exempel från ditt land (nu eller historiskt).",
+    "Exogena krafter: Krafter som formar jordytan utifrån (t.ex. vind, vatten och erosion). Ge exempel från ditt land.",
+    "Jämför: Finns samma krafter i Sverige? Hur påverkar krafterna säkerheten och hur man bygger hus?"
+  ],
+  meaning: "Här ska du förklara hur både våldsamma krafter inifrån jorden och nötningskrafter utanför jorden formar landet. Du ska också fundera på om människor i ditt land behöver vara mer eller mindre oroliga för naturkatastrofer än vi är i Sverige.",
+  concepts: [
+    "Endogena krafter: Krafter som kommer inifrån jorden och bygger upp landskapet, till exempel genom vulkanutbrott eller när berg skapas.",
+    "Exogena krafter: Krafter som kommer utifrån (från vädret) och nöter ner landskapet, till exempel vind som blåser bort sand eller vatten som gröper ur floder.",
+    "Erosion: När jord, sand eller sten flyttas av vind eller rinnande vatten så att marken ändrar form."
+  ],
+  next: [
+    "Sök: '[Landets namn] vulkaner jordbävningar' för att hitta inre krafter.",
+    "Sök: '[Landets namn] naturkatastrofer historia' för att se hur människor påverkats förr.",
+    "Jämför med Sverige: Har vi aktiva vulkaner eller kraftiga jordskalv här? Varför/varför inte?",
+    "Titta på bilder av hus i landet: Ser de extra stadiga ut, eller står de på stolpar för att skydda mot vatten?"
+  ],
+  start: [
+    "Ett exempel på en endogen kraft i mitt land är ... och det har påverkat landet genom att ...",
+    "När det gäller exogena krafter kan man se att ... nöter ner eller formar naturen i landet.",
+    "Jämfört med Sverige är säkerheten annorlunda eftersom man i mitt land måste bygga hus som tål ...",
+    "En stor skillnad mot Sverige är att vi oftast inte behöver tänka på ..."
   ]
 }
 ];
-   
