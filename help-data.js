@@ -50,5 +50,30 @@ const HELP_DATA = [
     "Jämfört med Sverige är säkerheten annorlunda eftersom man i mitt land måste bygga hus som tål ...",
     "En stor skillnad mot Sverige är att vi oftast inte behöver tänka på ..."
   ]
+},{
+  patterns: [
+    "Fråga: Var bor människor och varför bor de just där jämfört med i Sverige?",
+    "Beskriv var de största städerna ligger. Är landet tät- eller glesbefolkat?",
+    "Koppling: Hur hänger befolkningen ihop med klimatet och naturen?",
+    "Jämför med varför vi bor där vi bor i Sverige."
+  ],
+  meaning: "Du ska undersöka mönstret för var människor i landet har byggt sina städer och varför de har valt just de platserna. Du ska också förklara om landet är trångt eller har mycket plats, och jämföra det med hur vi bor i Sverige.",
+  concepts: [
+    "Befolkning: Alla människor som bor i ett land eller ett område.",
+    "Tätbefolkat: När många människor bor på en liten yta, som i en storstad eller i södra Sverige.",
+    "Glesbefolkat: När det bor ganska få människor på en stor yta, så att det är långt mellan grannarna (som i norra Sveriges inland)."
+  ],
+  next: [
+    "Sök: '[Landets namn] befolkningstäthet karta' för att se var det är prickigt eller mörkt på kartan.",
+    "Sök: 'Största städer i [Landets namn]' och kolla om de ligger vid havet, en flod eller i bergen.",
+    "Titta på din klimat-del: Bor folk där det är bra klimat för att odla mat?",
+    "Jämför med Sverige: Vi bor mest i söder där det är varmare och lättare att bygga vägar. Är det likadant i ditt land?"
+  ],
+  start: [
+    "I det här landet bor de flesta människor i ... och det beror ofta på att ...",
+    "Landet är mer [tät/gles]-befolkat än Sverige och en anledning till det är ...",
+    "Naturen påverkar var man bor genom att ...",
+    "Precis som i Sverige ser man att människor har valt att bo nära ..."
+  ]
 }
 ];
