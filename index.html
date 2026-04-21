@@ -67,22 +67,23 @@
   <script>
     const HELP_DATA = [
       {
-        patterns: [
-          "vilken klimatzon ligger landet i?",
-          "vilken klimatzon ligger landet i"
-        ],
-        meaning: "Du ska ta reda på vilken klimatzon landet ligger i.",
-        concepts: [
-          "Klimatzon är ett område där klimatet liknar andra områden.",
-          "Exempel på klimatzoner är tropisk, tempererad och polar."
-        ],
-        next: [
-          "Sök på landets klimatzon.",
-          "Ta reda på om landet är varmt, kallt, torrt eller regnigt.",
-          "Skriv sedan vilken klimatzon landet ligger i."
-        ]
-      },
-      {
+  patterns: [
+    "vilken klimatzon ligger landet i?",
+    "vilken klimatzon ligger landet i"
+  ],
+  meaning: "Frågan vill att du placerar landet i rätt klimatzon, alltså vilken typ av klimat området tillhör.",
+  concepts: [
+    "Klimatzon = områden på jorden med liknande klimat.",
+    "Vanliga klimatzoner är tropisk, subtropisk, tempererad och polar.",
+    "Klimatet påverkas av läge, avstånd till hav och höjd över havet."
+  ],
+  next: [
+    "Steg 1: Ta reda på var landet ligger på jorden.",
+    "Steg 2: Kolla om det är varmt året runt, kalla vintrar eller mycket nederbörd.",
+    "Steg 3: Koppla det till en klimatzon (t.ex. tropisk eller tempererad).",
+    "Steg 4: Skriv ett kort svar: 'Landet ligger i den ___ klimatzonen eftersom…'"
+  ]
+}
         patterns: [
           "endogena krafter: krafter från jordens inre (t.ex. vulkaner, jordbävningar och bergskedjebildning). ge exempel från ditt land (nu eller historiskt).",
           "endogena krafter: krafter från jordens inre (t.ex. vulkaner, jordbävningar och bergskedjebildning). ge exempel från ditt land",
@@ -158,7 +159,15 @@
       resultCard.classList.remove("hidden");
     }
 
-    document.getElementById("analyzeBtn").addEventListener("click", analyzeQuestion);
+document.getElementById("analyzeBtn").addEventListener("click", analyzeQuestion);
+
+document  .getElementById("userQuestion")
+  .addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      analyzeQuestion();
+    }
+  });
   </script>
 
 </body>
