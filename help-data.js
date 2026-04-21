@@ -434,5 +434,100 @@ const HELP_DATA = [
       "För att förbättra miljöns tillstånd har landet börjat satsa på... ",
       "Ett exempel på en konkret åtgärd som har genomförts är... "
     ]
+  },
+  {
+    patterns: [
+      "Fråga: Hur styrs landet jämfört med Sverige och vad innebär det för människorna?"
+    ],
+    meaning: "Du ska ge en övergripande bild av hur makten är fördelad i landet och hur det märks i vanliga människors liv. Fundera på om invånarna känner sig fria att säga vad de tycker eller om de måste vara försiktiga i sin vardag.",
+    concepts: [
+      "Statsskick: Det sätt som en stat styrs på, till exempel om det är en monarki med en kung eller en republik med en president.",
+      "Maktfördelning: Hur makten är uppdelad mellan olika grupper, som de som bestämmer lagar, de som styr landet och de som dömer i domstolar."
+    ],
+    next: [
+      "Sök efter 'Statsskick' och landets namn för att se om det styrs som en republik eller en monarki.",
+      "Jämför om landet har en kung eller president och vilken roll den personen har jämfört med den svenska kungen.",
+      "Fundera på hur ditt eget liv skulle förändras om du inte fick välja vilken information du vill läsa på internet."
+    ],
+    start: [
+      "När man undersöker hur landet styrs ser man att den högsta makten ligger hos... ",
+      "Detta påverkar människornas vardag genom att de har möjlighet att... "
+    ]
+  },
+  {
+    patterns: [
+      "Styre: Är landet en demokrati eller inte? Vem har makten?"
+    ],
+    meaning: "Här ska du tydligt svara på om folket får vara med och bestämma eller om en liten grupp har tagit all makt själv. Fundera på vad som faktiskt händer i landet med de personer som inte håller med de som bestämmer.",
+    concepts: [
+      "Demokrati: Ett system där folket får välja sina ledare i fria val och där alla har rätt att uttrycka sina åsikter.",
+      "Diktatur: När en person eller en liten grupp har all makt och folket inte får vara med och fatta viktiga beslut."
+    ],
+    next: [
+      "Ta reda på om landet räknas som en demokrati eller diktatur på webbplatser som Globalis eller genom att söka på landets namn.",
+      "Jämför landets placering på ett 'Demokratiindex' med Sveriges placering för att se hur stora skillnaderna är.",
+      "Fundera på om det räcker med att ett land har val för att det ska räknas som en riktig demokrati."
+    ],
+    start: [
+      "Landet räknas som en [demokrati/diktatur] eftersom makten i huvudsak kontrolleras av... ",
+      "Detta märks tydligt på att folket i landet har rätt att... "
+    ]
+  },
+  {
+    patterns: [
+      "Val & Beslut: Hur fungerar val jämfört med i Sverige? Vem bestämmer lagar?"
+    ],
+    meaning: "Du ska beskriva hur invånarna går tillväga för att välja sina ledare och vem som har sista ordet när nya lagar skapas. Fundera på om valen i landet verkligen är rättvisa för alla eller om resultatet verkar vara bestämt i förväg.",
+    concepts: [
+      "Parlament: Den församling av valda personer som fattar beslut om nya lagar, precis som riksdagen gör i Sverige.",
+      "Rösträtt: Rätten för medborgare att lägga en röst i ett val för att påverka vem som ska styra i landet."
+    ],
+    next: [
+      "Sök efter hur ofta det hålls val i landet och om det finns krav för vem som får lov att rösta.",
+      "Jämför landets motsvarighet till riksdagen med hur den svenska riksdagen fungerar när den röstar om nya lagar.",
+      "Fundera på varför det är viktigt för ett land att olika politiska partier får tävla om rösterna på lika villkor."
+    ],
+    start: [
+      "Valen i landet fungerar på så sätt att medborgarna röstar på... ",
+      "När det gäller att stifta nya lagar är det... som fattar de slutgiltiga besluten."
+    ]
+  },
+  {
+    patterns: [
+      "Jämför tydligt: Vad kan människor påverka i Sverige som de kanske inte kan påverka i det andra landet?"
+    ],
+    meaning: "Här ska du peka på de rättigheter vi har i Sverige och se om de finns på samma sätt i ditt valda land. Fundera på om det finns saker vi gör i Sverige varje dag som skulle kunna vara farliga eller förbjudna i det andra landet.",
+    concepts: [
+      "Yttrandefrihet: Rätten att säga och skriva vad man tycker utan att bli straffad av staten eller polisen.",
+      "Pressfrihet: Att tidningar, tv och radio får rapportera sanningen utan att de som bestämmer i landet lägger sig i."
+    ],
+    next: [
+      "Sök efter 'Pressfrihet' i landet för att se om journalister får lov att skriva kritiska artiklar om ledarna.",
+      "Jämför möjligheten att demonstrera eller starta en förening i Sverige mot hur det fungerar i det andra landet.",
+      "Fundera på hur det påverkar människors vilja att engagera sig om de är rädda för att få problem med polisen."
+    ],
+    start: [
+      "I Sverige har vi rätt att öppet kritisera de som bestämmer, men i [landets namn] är situationen... ",
+      "En stor skillnad när det gäller att påverka samhället är att invånarna i det här landet inte kan... "
+    ]
+  },
+  {
+    patterns: [
+      "Tänk till: Varför tror du att landet styrs på det här sättet?"
+    ],
+    meaning: "Du ska resonera kring orsakerna till att landets ledarskap ser ut som det gör idag istället för att bara beskriva fakta. Fundera på om det är landets historia, tidigare krig eller gamla traditioner som har skapat det nuvarande styret.",
+    concepts: [
+      "Konstitution: De grundlagar som bestämmer hur ett land ska styras och vilka regler som ledarna måste följa.",
+      "Politiskt system: Den struktur som ett land använder för att organisera sin makt och sina lagar."
+    ],
+    next: [
+      "Ta reda på om landet tidigare har varit en koloni eller om det har varit med om stora inbördeskrig i modern tid.",
+      "Jämför landets politiska historia med Sveriges historia för att se om det finns händelser som förklarar skillnaderna.",
+      "Fundera på om det är svårare att bygga upp en stabil demokrati i ett land där det råder stor fattigdom."
+    ],
+    start: [
+      "En tänkbar anledning till att landet styrs på det här sättet kan vara landets historia av... ",
+      "Jag tror att styret ser ut som det gör idag eftersom händelser i det förflutna har lett till att... "
+    ]
   }
 ];
