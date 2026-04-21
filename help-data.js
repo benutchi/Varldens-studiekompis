@@ -532,22 +532,40 @@ const HELP_DATA = [
   },
   {
     patterns: [
-      "Vad påverkar mest hur ett land fungerar – naturen eller hur landet styrs?",
-      "Här ska du ta ställning. Vad tror du är viktigast för ett land? Använd minst två exempel från ditt arbete för att förklara hur du tänker och jämför med Sverige."
+      "Fråga: Vad påverkar mest hur ett land fungerar – naturen eller hur landet styrs?"
     ],
-    meaning: "Här ska du väga samman allt du har lärt dig för att bestämma om det är geografin eller politiken som formar ett land mest. Fundera på om ett land med dåliga naturliga förutsättningar ändå kan bli framgångsrikt om ledarna fattar smarta och rättvisa beslut.",
+    meaning: "Här ska du fundera på om det är de naturliga förutsättningarna eller de politiska besluten som gör störst skillnad för ett land. Tänk på om ett land kan lyckas trots en svår natur om ledarna är smarta och rättvisa.",
     concepts: [
-      "Slutsats: Den sista delen i en undersökning där man knyter ihop alla sina resultat och ger ett tydligt svar på arbetets huvudfråga.",
-      "Perspektiv: Att se på en fråga från olika håll, till exempel genom att titta på både naturens möjligheter och politikens makt samtidigt."
+      "Geografiska förutsättningar: Detta handlar om landets läge, klimat och naturresurser som påverkar vad man kan producera och sälja.",
+      "Politiskt inflytande: Hur lagar och beslut från de som bestämmer formar hur säkert och rättvist ett samhälle blir för medborgarna."
     ],
     next: [
-      "Gå igenom dina tidigare svar om både klimat och statsskick för att hitta konkreta exempel som visar hur de två delarna påverkar varandra.",
-      "Jämför hur Sveriges naturresurser har hjälpt oss historiskt mot hur vår demokrati och våra lagar formar vårt samhälle idag.",
-      "Fundera på om ett land med ett perfekt klimat och rika naturresurser ändå kan fungera dåligt om invånarna inte får vara med och bestämma."
+      "Gå igenom dina tidigare svar om både naturkrafter och statsskick för att se vad som har störst påverkan på människors vardag.",
+      "Jämför hur Sveriges tillgång till skog och malm har hjälpt oss historiskt mot hur vår demokrati hjälper oss idag.",
+      "Fundera på vilket som är lättast att förändra för ett land: naturen eller hur landet styrs."
     ],
     start: [
-      "Efter att ha undersökt hur landet fungerar drar jag slutsatsen att... har störst betydelse för invånarnas liv eftersom... ",
-      "När man jämför med Sverige ser man tydligt att... är det som mest påverkar landets framtid på grund av... "
+      "När man ser till helheten verkar det som att... har störst betydelse för landets utveckling eftersom... ",
+      "En anledning till att jag drar den slutsatsen är att man kan se hur... styr människornas liv mer än... "
+    ]
+  },
+  {
+    patterns: [
+      "Här ska du ta ställning. Vad tror du är viktigast för ett land? Använd minst två exempel från ditt arbete för att förklara hur du tänker och jämför med Sverige."
+    ],
+    meaning: "Du ska förklara din egen åsikt och bevisa varför du tänker så med hjälp av fakta du har hittat tidigare i ditt arbete. Fundera på hur du bäst kan visa att dina exempel från landet faktiskt hänger ihop med din slutsats.",
+    concepts: [
+      "Argumentera: Att använda fakta och logik för att förklara varför man tycker på ett visst sätt och övertyga den som läser.",
+      "Underbyggt resonemang: När man inte bara tycker något, utan också förklarar varför man tycker så med hjälp av tydliga exempel."
+    ],
+    next: [
+      "Leta i dina egna texter efter två tydliga exempel där du ser att antingen naturen eller politiken har spelat en avgörande roll.",
+      "Jämför dina exempel med hur liknande situationer ser ut i Sverige för att göra ditt svar ännu tydligare.",
+      "Fundera på om det finns något som talar emot din åsikt, för att visa att du har tänkt på frågan från flera håll."
+    ],
+    start: [
+      "Min åsikt är att... är det allra viktigaste för ett land och det kan man se i exemplen om... ",
+      "När man jämför detta med Sverige blir det tydligt att... eftersom vi i båda länderna ser att... "
     ]
   }
 ];
